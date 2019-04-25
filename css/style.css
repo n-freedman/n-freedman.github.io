@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Poppins:500');
+
+.poppins-medium{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.poppins-semi-bold{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.libre-baskerville{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+}
+
+.nav-link{
+  font-size: 15px;
+}
+
+.container{
+  max-width: 1170px;
+}
+
+.navbar{
+  padding-top: 17px;
+  padding-bottom: 19px;
+}
+
+.action-btn{
+  border-radius: 50px;
+  margin-top: 35px;
+  width: 176px;
+  height: 50px;
+  transition: 0.3s all;
+}
+
+.action-btn:hover{
+  color: black;
+  background-color: white;
+}
+
+#main{
+  background: url("../images/main-bg.png") center;
+  padding-bottom: 153px;
+}
+
+.main-header{
+  margin-top: 165px;
+  font-size: 56px;
+  line-height: 83px;
+  word-spacing: 12px;
+  color: white;
+}
+
+.btn-orange{
+  color: white;
+  background-color: #fc5f45;
+}
+
+.color-green{
+  color: #38c695;
+}
+
+.color-purple{
+  color: #b27cf5;
+}
+
+.color-yellow{
+  color: #feb960;
+}
+
+#main > .container > div:last-child > div{
+   padding: 0 200px;
+   margin-top: 83px;
+ }
+
+#main > .container > div:last-child > div > div > p{
+  margin-top: 34px;
+  font-size: 17px;
+}
